@@ -1,0 +1,50 @@
+.navigation {
+  height: 10vh;
+  width: 100%;
+
+  background-color: antiquewhite;
+
+  display: flex;
+  justify-content: flex-end;
+
+  .nav-links-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .nav-link {
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+  }
+}
+
+.main {
+  padding: 30px;
+
+  height: 80vh;
+  width: 100%;
+
+  background-color: rgba(249, 206, 151, 0.764);
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+footer {
+  height: 10vh;
+  width: 100%;
+
+  background-color: antiquewhite;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  bottom: 0;
+}
