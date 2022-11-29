@@ -5,7 +5,7 @@ import './navigation.styles.css';
 const Navigation = () => {
   return (
     <Fragment>
-      <div className='navigation'>
+      <nav className='navigation'>
         <div className='nav-links-container'>
           <Link className='nav-link' to='/home'>
             Home
@@ -17,7 +17,7 @@ const Navigation = () => {
             Edit User
           </Link>
         </div>
-      </div>
+      </nav>
       <div className='main'>
         <Outlet />
       </div>

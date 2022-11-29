@@ -1,0 +1,17 @@
+.loading {
+  height: 100px;
+  width: 400px;
+
+  background-color: azure;
+  border-radius: 5px;
+
+  font-size: 46px;
+  color: black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0.8;
+}

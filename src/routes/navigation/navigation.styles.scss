@@ -24,9 +24,6 @@
 .main {
   padding: 30px;
 
-  height: 80vh;
-  width: 100%;
-
   background-color: rgba(249, 206, 151, 0.764);
 
   display: flex;
@@ -44,7 +41,4 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  position: fixed;
-  bottom: 0;
 }
